@@ -20,6 +20,8 @@ function App() {
           <li><a className="hover:text-softRed"href="#">Home</a></li> 
           <li><a className="hover:text-softRed"href="#">New</a></li> 
           <li><a className="hover:text-softRed"href="#">Popular</a></li>
+          <li><a className="hover:text-softRed"href="#">Trending</a></li>
+          <li><a className="hover:text-softRed"href="#">Categories</a></li> 
         </ul> 
         <button onClick={toggleCanvas} className="h-fit w-fit relative top-[6px] Laptop:hidden"><svg width="40" height="17" xmlns="http://www.w3.org/2000/svg"><g fill="#00001A" fillRule="evenodd"><path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z"/><path d="M0 0h40v3H0z"/></g></svg></button>
         {
@@ -40,7 +42,7 @@ function App() {
         />
       </div>
 
-      <div className="pt-[60px] flex flex-col gap-[34px] Laptop:flex-row Laptop:pt-[0px]">
+      <div className="pt-[60px] pb-8 flex flex-col gap-[34px] Laptop:flex-row Laptop:pt-[5px]">
         <PopularPost 
         srcImg={"\image-retro-pcs.jpg"} 
         number={"01"} 
@@ -61,6 +63,11 @@ function App() {
         title={"The Growth of Gaming"} 
         caption={"How the pandemic has sparked fresh opportunities."}>
         </PopularPost>
+      </div>
+      
+      <div className="text-[20px] text-center">
+        Challenge by <a className="text-blue-800" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a className="text-blue-800" href="https://github.com/Muharim">Muharim Awaluddin</a>.
       </div>
     </div>
   )

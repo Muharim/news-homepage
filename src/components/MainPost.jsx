@@ -6,7 +6,7 @@ export const MainPost = ({srcImg, Title, Caption}) => {
         <div className="pb-[60px] Laptop:flex Laptop:flex-col Laptop:gap-[40px]">
             <img className="relative bottom-[8px] pb-[18px] Laptop:hidden" src={srcImg} alt="" />  
             <img className='hidden h-[300px] Laptop:block' src="image-web-3-desktop.jpg" alt="" />
-            <div className='Laptop:flex Laptop:gap-[30px] Laptop:w-[740px]'>
+            <div className='Laptop:flex Laptop:gap-[72px] Laptop:w-[740px]'>
               <h1 className="font-extrabold font-[32px] text-[40px] leading-none pb-[18px] Laptop:text-[54px] Laptop:w-[1100px]">{Title}</h1>
               <div>
                 <p className="text-[15px] text-DGB pb-[24px]">{Caption}</p> 
