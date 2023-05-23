@@ -3,7 +3,7 @@ import React from 'react'
 export const PopularPost = ({srcImg,number,title,caption}) => {
   return (
     <div>
-        <div className="flex gap-[24px]">
+        <div className="flex gap-[24px] Laptop:w-[350px]">
           <img className="h-[130px]" src={srcImg} alt="" />
           <div className="flex flex-col justify-center">
           <h2 className="text-[32px] font-bold text-grayishBlue">{number}</h2>
